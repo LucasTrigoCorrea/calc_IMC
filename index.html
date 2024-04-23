@@ -13,20 +13,23 @@
 
 <body>
 
-  <section class="container">
-    <h1>Calcule Seu IMC</h1>
-    <form action="/" id="formulario" method="POST">
-      <label for="peso">Peso</label>
-      <input type="text" id="peso" name="peso">
-      <label for="altura">Altura</label>
-      <input type="text" id="altura" name="altura">
-      <button type="submit">Enviar</button>
-    </form>
+  <section class="body">
 
-    <div id="resultado"></div>
-    <div id="refresh">
-      <input type="button" value="Nova Consulta" onClick="window.location.reload()">
-    </div>
+    <section class="container">
+      <h1>Calcule Seu IMC</h1>
+      <form action="/" id="formulario" method="POST">
+        <label for="peso">Peso</label>
+        <input type="text" id="peso" name="peso">
+        <label for="altura">Altura</label>
+        <input type="text" id="altura" name="altura">
+        <button type="submit">Calcular</button>
+        <div id="resultado"></div>
+        <div id="refresh">
+          <input type="button" value="Nova Consulta" onClick="window.location.reload()">
+        </div>
+      </form>
+  
+    </section>
   </section>
 
   <script src="./assets /js/main.js"></script>

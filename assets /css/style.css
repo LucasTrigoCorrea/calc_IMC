@@ -128,7 +128,7 @@ form button:hover {
 .paragrafo-resultado, .bad {
   background: var(--gray-color);
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 3px;
   font-family: var(--regular);
   margin-top: 10px;
   font-size: 1rem;
